@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            /* width:15% ;*/
+            height: 30vh;
+            border: 2px solid blue;
+        
+        }
+        section{
+            display: grid;
+            grid-gap: 10px;
+            grid-template-rows:30vh 30vh 40vh;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: 
+            "red red red"
+            "green green purple"
+            "orange orange gold"
+            "black black blue";
+      
+        }
+        #red{
+            grid-area: "red";
+            background-color: red;
+        }
+        #green{
+            grid-area: "green";
+            background-color: green;
+        }
+        #pink{
+            grid-area: "purple";
+            background-color: purple;
+        }
+        #orande{
+            grid-area: "orange";
+            background-color: orange;
+        }
+        #blue{
+            grid-area: "blue";
+            background-color: blue;
+        }
+        #gold{
+            grid-area: "gold";
+            background-color: gold;
+        }
+        #black{
+            grid-area: "black";
+            background-color: black;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section>
+      <div id="red">     </div>
+      <div id="green">     </div>
+      <div id="pink">     </div>
+      <div id=" orange">     </div>
+      <div id="blue">     </div>
+      <div  id="gold">     </div>
+      <div id="black">     </div>
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    height: auto;
+    
+}
+header{
+    height:auto;
+    background-color: rgba(0, 128, 107, 0.685);
+    text-align: center;
+}
+.yellow-star{
+    color: yellow;
+}
+
+a{
+    color: aliceblue;
+    text-transform: capitalize;
+     line-height: 10px; 
+     margin: 10px;
+}
+#gay{
+    width: auto;
+    height: 250px;
+    background-color: black;
+text-align: justify;
+
+}
+p{
+text-transform:capitalize;
+}
+#bas{
+    float: right;
+width: 45%;
+height: 100%;
+padding: 0 40px;
+}
+
+#viwe{
+    margin: 5px;
+    text-align: center;
+  
+}
+#box{
+  color: beige;
+  width: auto;
+  padding: 50px 50px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.butt{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+.butt:hover{
+background-color: azure;
+}
+
+#est{
+background-color: white;
+margin: auto;
+}
+.os{
+    height: auto;
+}
+.o{
+    height: auto;
+}
+.das{
+    border: 0;
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    line-height: 16px;
+    font-size: 13px;
+}
+.das img{
+    width: auto;
+}
+#xas{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+.was{
+height: 50%;
+ width: 45%;
+}
+#test{
+    text-align: justify;
+    margin: 30px;
+}
+.gres{
+    float: right; 
+width: 45%;
+   padding: 20px;
+
+}
+h2{
+    text-align: center;
+    color: beige;
+    text-transform: uppercase;
+    
+}
+.vaz{
+    color: black;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+}
+.re2{
+color: black;
+}
+#has2{
+    width: auto;
+    height:auto;
+}
+#bestseller{
+    display:flex;
+    justify-content: center;
+    line-height: 14px;
+    background-color: rgba(0, 128, 111, 0.753);
+}
+.jas{
+    border: 0px;
+    width: auto;
+    height: auto;
+    background-color:white;
+    text-align: center;  
+ margin: 10px;
+}
+.fat{
+    width: auto;
+}
+#fa{
+    width: 200px;
+    height: auto;
+}
+#fad{
+    width: 200px;
+    height: auto;
+}
+#ha{
+    border: 1px;
+    width: auto;
+    height: 300px;
+    background-color: bisque; 
+    padding: 20px;
+}
+#kas{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+
+}
+#kast{
+    width: auto;
+    height: 100%;
+    background-color: rgba(245, 245, 220, 0.053);
+    padding-left: 15px;
+}
+#kast p{
+    text-align: justify;
+}
+#kav{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+.ka{
+    border: 1px;
+    width: 45%;
+    border-left : solid rgb(0, 128, 90);
+    border-top: solid rgb(0, 119, 128);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-right: none;
+    border-bottom: none;
+    background-color:white;
+    padding: 19px;
+}
+#los{
+    width: auto;
+    height: auto;
+    background-color:palegoldenrod;
+    
+}
+#ban{
+    border: 2px;
+    width: auto;
+    height: auto;
+    border: double;
+    border-color: aqua;
+    display: flex;
+}
+#po{
+    width: 30%;
+    height: auto;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+#pos{
+    width: auto;
+    height: auto;
+margin: o auto;
+    background-color: cadetblue;
+}
+input{
+    background-color:rgba(0, 128, 0, 0.178) ;
+    height: 30px;
+    border: 2px solid rgba(240, 248, 255, 0.459);
+}
+
+#side_text{
+    text-align: justify;
+    margin:5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.insidetext{
+    width: 45%;
+}
+#cast{
+    height: 35px;
+    border-radius: none;
+    background-color: white;
+}
+#cas{
+    width: 45%; 
+}
+#bax{
+    padding: 20px;
+
+}
+.clients{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+#rexter{
+    width: 80%;
+    display: flex;
+    padding: 10px 10%;
+    text-align: justify;
+
+}
+.set2{
+    display: flex;
+}
+.foat{
+    width: 150px;
+    height: 60px;
+}
+#site{
+    width: 45%;
+}
+.set{
+    text-align: center;
+    width: 40%;
+
+}
+.sete{
+text-align: justify;
+font-size: 11px;
+line-height: 19px;
+text-transform: capitalize;
+}
+
+ .you{
+    color: black;
+    font-size: 15px;
+    padding: 5px 0px;
+
+}
+@media screen and (max-width:500px){
+
+    #side_text{
+         flex-wrap: wrap;
+        width: auto;
+        height: auto;
+    }
+    .insidetext, #cas{
+        margin: 20px auto;
+        font-size: 14px;
+        width: 80%;
+    }
+    .insidetext button{
+        margin: 0 30%;
+    }
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+    #gay{
+        height: 100%;
+        line-height: 19px;
+    }
+    #box{
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+    #bas{
+        width: 100%;
+    }
+    .das img{
+        width: 100%;
+    }
+   #xas{
+    flex-wrap: wrap;
+    line-height: 11px;
+   }
+.das{
+    height: auto;
+    text-align: center;
+    width:40%;
+}
+#test{
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+#has2{
+    flex-wrap: wrap;
+    }
+    .fat{
+        width: 100%;
+    }
+ #bestseller{
+    background-color:azure;
+    flex-wrap: wrap;
+    }
+.jas h3{
+    font-size: 19px;
+}
+.jas{
+    line-height: 15px;
+    width: 40%;
+}
+.was{
+margin: auto;}
+.gres{
+    width: auto;
+    padding: 20px;
+}
+.was{
+width: auto;
+height: auto;
+}
+#kast{
+    flex-wrap: wrap;
+   
+}
+
+.clients{
+    flex-direction: column;
+}
+.ka{
+    width: 80%;
+    margin: 20px 0;
+}
+.ser{
+    padding: 50px 0px;
+}
+#est{
+    flex-wrap: wrap;
+   
+}
+.os{
+    width: 100%;
+}
+.o{
+    width: 100%;
+}
+.vaz{
+    font-size: 15px;
+}
+#pos{
+padding: 10px;
+background:rgba(0, 128, 0, 0.313); 
+}
+#po{
+    width: auto;
+    height: auto;
+}
+#next{
+    width: auto;
+}
+
+#rexter{
+width: 70%;
+margin: auto;
+
+    flex-wrap: wrap;
+}
+.set{
+    width: 50%;
+}
+.set2{
+    width: 50%;
+}
+.sete{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+#set3{
+    line-height: 30px;
+    width: 50%;
+}
+input{
+    width: 70%;
+}
+
+}
+
+@font-face{
+    font-family: myfont;
+    src:url(../asset/bad.ttf.ttf);
+}
+#rexter h1{
+ font-family: myfont;
+ font-size: 70px;
+}
